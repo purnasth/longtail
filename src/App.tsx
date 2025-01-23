@@ -8,6 +8,7 @@ import {
 import Home from './pages/Home';
 import RouterToTop from './utils/RouterToTop';
 import useLenisScroll from './utils/useLenisScroll';
+import Navbar from './layouts/Navbar';
 
 const App: React.FC = () => {
   useLenisScroll();
@@ -15,6 +16,7 @@ const App: React.FC = () => {
     <>
       <Router>
         <RouterToTop />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />

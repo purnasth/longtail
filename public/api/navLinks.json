@@ -1,0 +1,44 @@
+[
+    {
+        "id": "home",
+        "title": "Home",
+        "link": "\/",
+        "priority": 1
+    },
+    {
+        "id": "about",
+        "title": "About",
+        "link": "\/about",
+        "priority": 1
+    },
+    {
+        "id": "services",
+        "title": "Services",
+        "link": "\/services",
+        "priority": 1
+    },
+    {
+        "id": "portfolio",
+        "title": "Portfolio",
+        "link": "\/portfolio",
+        "priority": 1
+    },
+    {
+        "id": "testimonials",
+        "title": "Testimonials",
+        "link": "\/testimonials",
+        "priority": 0
+    },
+    {
+        "id": "careers",
+        "title": "Careers",
+        "link": "\/careers",
+        "priority": 0
+    },
+    {
+        "id": "contact",
+        "title": "Contact",
+        "link": "\/contact",
+        "priority": 0
+    }
+]
