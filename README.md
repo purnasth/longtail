@@ -1,291 +1,223 @@
-<h1 align="center">
-  <img
-      src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=9f4bff&size=30&center=true&vCenter=true&width=500&lines=Vite++React++TailwindCSS+Starter+Kit;"
-      alt="Vite + React + TailwindCSS Starter Kit"
-  />
-</h1>
-  <br/>
+# Longtail.info
 
-<div align="center">
-  <img
-    alt="GitHub repo size"
-    src="https://img.shields.io/github/repo-size/purnasth/vite-react-tailwind-starter?color=9f4bff&logo=github&style=for-the-badge&logoColor=9f4bff"
-  />
-  <img
-    alt="GitHub forks"
-    src="https://img.shields.io/github/forks/purnasth/vite-react-tailwind-starter?color=9f4bff&logo=github&style=for-the-badge&logoColor=9f4bff"
-  />
-  <img
-    alt="GitHub Repo stars"
-    src="https://img.shields.io/github/stars/purnasth/vite-react-tailwind-starter?color=9f4bff&logo=github&style=for-the-badge&logoColor=9f4bff"
-  />
-  <img
-    alt="Last commit"
-    src="https://img.shields.io/github/last-commit/purnasth/vite-react-tailwind-starter?color=9f4bff&logo=git&logoColor&style=for-the-badge"
-  />
-  <img
-    alt="Commit activity"
-    src="https://img.shields.io/github/commit-activity/m/purnasth/vite-react-tailwind-starter?color=9f4bff&logo=git&logoColor&style=for-the-badge"
-  />
-</div>
-<br />
-
-<p align="center">This template provides a stater setup to get React working in Vite with TailwindCSS installed.</p>
+Longtail.info is a modern, fast, and responsive website built for Longtail e-Media. It is built using React, Vite, and TailwindCSS. The website is designed to be user-friendly and easy to navigate. It includes features like a modern UI design, donate us, and more.
 
 ---
 
-## Getting Started`*`
+## 🚀 Features
 
-### 1. Clone this repo`*`
-
-```sh
-git clone https://github.com/purnasth/vite-react-tailwind-starter.git
-```
-
-### &rarr; for `jsx`
-
-<!-- how to print arrow in markdown ?
-https://stackoverflow.com/questions/30003353/how-to-write-an-arrow-in-markdown 
- -->
-
-```sh
-git checkout vrt
-```
-
-#### &rarr; Repo Url: https://github.com/purnasth/vite-react-tailwind-starter-kit/tree/vrt
-
-### &rarr; for `TypeScript`
-
-```sh
-git checkout vrt-ts
-```
-
-#### &rarr; Repo Url: https://github.com/purnasth/vite-react-tailwind-starter-kit/tree/vrt-ts
-
-#
-
-### 2. Install and Run`*`
-
-Run the following commands in your terminal:
-
-```sh
-npm install
-npm run dev
-```
-
-- <b><em>`npm install`</em></b> to install the node_modules on your local repo which has been .gitignore in this github repo.
-- <b><em>`npm run dev`</em></b> for running this in your browser, by default it opens in port http://localhost:5173/
+- **Modern UI Design**:
+- **About & History**:
+- **Services**:
+- **Portfolio**:
+- **Career**:
+- **Contact Us**:
+- **Client Testimonials**:
+- **Quotation**:
 
 ---
 
-## Getting Started`*`
+## 🛠️ Technologies Used
 
-### 1. Clone this repo`*`
+- **React**: Frontend library
+- **Vite**: Fast build tool
+- **TypeScript**: For static typing
+- **TailwindCSS**: Utility-first CSS framework
+- **Axios**: Promise-based HTTP client
+- **React Router DOM**: Declarative routing for React
+- **TanStack/react-query**: Data fetching and caching library
+- **Lightgallery**: Full-featured JavaScript lightbox gallery
+- **Swiper**: Modern touch slider
 
-```sh
-git clone https://github.com/purnasth/vite-react-tailwind-starter.git
-```
+---
 
+## 🎨 Pnpm Setup codes
 
-### &rarr; for `pnpm TypeScript + Tailwindcss + Prettier (Auto Formatting)`
+```bash
+pnpm i axios react-query react-router-dom lightgallery react-icons swiper
+---
 
-```sh
-the main branch
-```
+## 📁 Project Structure
 
-#### &rarr; Repo Url: https://github.com/purnasth/vite-react-tailwind-starter-kit/
+### **src/**
 
-#
+| Folder            | Description                                      |
+|--------------------|--------------------------------------------------|
+| `components/`     | Contains reusable React components               |
+| `hooks/`          | Custom React hooks                               |
+| `pages/`          | Page-level components                            |
+| `styles/`         | Global CSS and TailwindCSS configurations         |
+| `utils/`          | Utility functions and API calls                  |
+| `types/`          | TypeScript type definitions                      |
 
-### 2. Install and Run`*`
+---
 
-Run the following commands in your terminal:
+## ⚙️ Setup and Installation
 
-```sh
-pnpm install
-pnpm dev
-```
+1. Clone the repository:
+   ```bash
+   git clone 
+    ```
 
-- <b><em>`pnpm install`</em></b> to install the node_modules on your local repo which has been .gitignore in this github repo.
-- <b><em>`pnpm dev`</em></b> for running this in your browser, by default it opens in port http://localhost:5173/
+2. Install dependencies:
+    ```bash
+    pnpm install
+    ```
+3. Create an `.env` file: 
+    ```bash
+    VITE_API_URL=https://api.com # Your API URL
+    VITE_RECAPTCHA_SITE_KEY=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI # Your reCAPTCHA site key
+    ```
+4. Start the development server:
+    ```bash
+    pnpm run dev
+    ```
+
+---
+
+## API Endpoints and Usage
 
 ---
 
 
-## Codes Used
+## 📂 File Structure
 
-<b>`NOTE:`
-<em>
-Please disregard these below provided codes if you've already completed the first two steps of the "Getting Started" section. It's only meant for those interested in manually creating a project from scratch with Vite + React, Typescript, TailwindCSS and Prettier (Auto Formatting) with pnpm.
-</em>
-</b>
-
-### Install vite + react
-
-```sh
-pnpm create vite@latest ./ --template react
-# y to proceed
-# Select a framework: react
-# Select a variant: TypeScript + SWC
-pnpm install
-pnpm run dev
+``` plaintext
+📂 longtail
+├── 📂 public
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── index.html
+├── 📂 src
+│   ├── 📂 components
+│   │   ├── 📂 ui
+│   │   └── [Other Components]
+|   ├── 📂 components
+│   │   ├── 📂 ui
+│   │   └── [Other Components]
+|   ├── 📂 constants
+│   │   └── data.ts
+|   ├── 📂 layouts
+│   │   └── [Layout Components]
+│   ├── 📂 hooks
+│   │   └── useCustomHook.tsx
+│   ├── 📂 pages
+│   │   ├── Home.tsx
+│   │   └── About.tsx
+│   ├── 📂 utils
+│   │   ├── api.tsx
+│   ├── App.tsx
+│   ├── global.d.ts
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+│   └── index.css
+├── .env
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── eslintrc.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 ```
-
-```sh
-npm run dev -- --host
-```
-
-### Install tailwindCSS
-
-```sh
-pnpm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-### Replace <em>`tailwind.config.js`</em> inner codes with
-
-```
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-      colors: {
-        dark: "#111111",
-      },
-      fontSize: {
-        inherit: "inherit",
-      },
-      screens: {
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1280px",
-        "2xl": "1600px",
-        "3xl": "1920px",
-      },
-      container: {
-        center: true,
-        padding: "1rem",
-        screens: {
-          sm: "100%",
-          md: "100%",
-          lg: "1024px",
-          xl: "1280px",
-          "2xl": "1600px",
-        },
-      },
-    },
-  },
-  plugins: [],
-};
-```
-
-### Paste these lines in <em>`index.css`</em>
-
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-### `React is not defined` error
-
-If you encounter the error `React is not defined` or `React is defined but never used`, add the following line to the top of your `tsconfig.json` file:
-
-```json
-{
-    "files": [],
-    "references": [
-        {
-            "path": "./tsconfig.app.json"
-        },
-        {
-            "path": "./tsconfig.node.json"
-        }
-    ],
-    "compilerOptions": {
-        "jsx": "react-jsx",
-        "jsxImportSource": "react"
-    }
-}
-```
-
-### Install Prettier
-
-```sh
-pnpm install -D prettier
-```
-
-### Add Prettier Config
-
-Create a file named `.prettierrc` in the root directory and add the following lines:
-
-```json
-{
-  "semi": false,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "useTabs": false,
-  "printWidth": 80,
-  "endOfLine": "auto"
-}
-```
-
-### Add Prettier Scripts
-
-Add the following lines to the `scripts` object in your `package.json` file:
-
-```json
-"format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-"format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
-```
-
-### Run Prettier
-
-```sh
-pnpm run format
-```
-
-### Auto Formatting with Prettier
-
-```sh
-pnpm i -D prettier prettier-plugin-tailwindcss
-```
-
-<b>`NOTE:`
-<em>
-Enable the `formatOnSave` option in your editor to auto-format your code with Prettier. You can also run the `pnpm run format` command to format your code. 
-Cheers! Now on every save, your code will be auto-formatted. Congratulations! 
-</em>
-</b>
-
 
 ---
 
-## Libraries `pnpm`
+## Available Scripts
+- `dev`: vite
+- `build`: vite build
+- `preview`: vite preview
 
-```
-pnpm install react-router-dom
-pnpm install react-icons
-```
-<!-- pnpm install react-router-dom
-pnpm install react-icons
-pnpm install react-helmet
-pnpm install react-query
-pnpm install react-toastify
-pnpm install react-modal
-pnpm install react-select
-pnpm install react-datepicker
-pnpm install react-table
-pnpm install react-hook-form
-pnpm install react-markdown
-pnpm install react-syntax-highlighter
-pnpm install react-draggable
-pnpm install react-beautiful-dnd
-pnpm install react-spring
-pnpm install react-use
-pnpm install react-use-gesture
-pnpm install react-use-measure -->
+---
 
-⭐ Star this repo on GitHub — it helps!
+## 📝 Frontend Documentation
+
+### 1. For Deployment on Cloudflare:
+``` plaintext
+1. Go to the Cloudflare dashboard.
+2. Select the website you want to deploy.
+3. Go to the `Workers & Pages` tab.
+4. Connect your GitHub repository.
+5. Select the branch you want to deploy.
+6. Click on the `Deploy` button.
+    - use the following command: `pnpm run build`
+    - use the following directory: `dist`
+```
+
+### 2. For Deployment on Longtail cpanel server:
+
+```bash
+pnpm run build
+```
+and then upload the build folder to the server on the root directory.
+
+`NOTE:` Add these files for no production error:
+
+- Create a `.htaccess` file in the root directory of the project and add the following code:
+```
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+```
+`NOTE:` This code will redirect all the requests to the index.html file which prevents the 404 error after user navigates to the different pages and refreshes the page.
+
+#### [Optional]: Only if the folder has /folder-name in the URL then add the following code:
+
+`.htaccess`
+```
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /folder-name/
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /folder-name/index.html [L]
+</IfModule>
+```
+
+`vite.config.js`
+```jsx
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: '/folder-name/',
+})
+```
+
+`App.tsx`
+```jsx
+import { BrowserRouter as Router } from 'react-router-dom';
+
+<Router basename="/folder-name">
+  <App />
+</Router>
+```
+
+---
+
+## Team Members
+
+- **[Purna Shrestha](https://www.purnashrestha.com.np)** - _Frontend Developer_ - _UI/UX Designer_
+- **[Swarna Shakya](https://www.swarnashakya.com.np)** - _Backend Developer_
+- **[Sunita Shakya](#)** - _Team Lead_
+- **[Bijan Bajracharya](#)** - _Project Lead_
+
+---
+
+## License
+
+All designs, code, and assets used in this project are the property of `Longtail e-Media`. Unauthorized use, reproduction, or distribution of any designs, code, or assets without the express written permission of the owners is strictly prohibited and is subject to legal action.
