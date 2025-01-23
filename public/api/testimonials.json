@@ -1,0 +1,268 @@
+{
+    "id": 1,
+    "subtitle": "Testimonials",
+    "title": "What Our Clients Say",
+    "description": "We have worked with some amazing clients and we have some amazing stories to share. From the design and development of their websites to the marketing and branding of their products, we have done it all. Here are some of the projects we have worked on.",
+    "items": [
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Himalaya",
+                "post": "CEO",
+                "imageUrl": "https://hotelhimalaya.com/images/preference/dL0QI-hotelhimalaya.png"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/gDw69-7.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Ichchha",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Himalaya",
+                "post": "CEO",
+                "imageUrl": "https://hotelhimalaya.com/images/preference/dL0QI-hotelhimalaya.png"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Ichchha",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Ichchha",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Himalaya",
+                "post": "CEO",
+                "imageUrl": "https://hotelhimalaya.com/images/preference/dL0QI-hotelhimalaya.png"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/lGuWj-6.jpg",
+                    "alt": "Kailash Boutique Hotel"
+                }
+            ],
+            "title": "Kailash Boutique Hotel",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us.",
+            "section": {
+                "author": "Kailash Boutique Hotel",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Himalaya",
+                "post": "CEO",
+                "imageUrl": "https://hotelhimalaya.com/images/preference/dL0QI-hotelhimalaya.png"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future. After the successful revamping of our website, we have seen a 80% increase in website traffic and a 60% increase in bookings. Thank you once again.",
+            "section": {
+                "author": "Hotel Ichchha",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future.",
+            "section": {
+                "author": "Hotel Himalaya",
+                "post": "CEO",
+                "imageUrl": "https://hotelhimalaya.com/images/preference/dL0QI-hotelhimalaya.png"
+            }
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development"
+            ],
+            "content": "Thank you Longtail e-Media for the amazing work you did for us. We are very happy with the results and we will definitely work with you again in the future.",
+            "section": {
+                "author": "Hotel Ichchha",
+                "post": "CEO",
+                "imageUrl": "https://www.hotelichchha.com/assets/logo-DwnyUaN0.svg"
+            }
+        }
+    ]
+}

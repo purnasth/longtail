@@ -1,0 +1,215 @@
+{
+    "id": 1,
+    "subtitle": "Our Work",
+    "title": "Experiences we have created",
+    "description": "We have worked with some amazing clients and we have some amazing stories to share. From the design and development of their websites to the marketing and branding of their products, we have done it all. Here are some of the projects we have worked on.",
+    "items": [
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://www.hotelichchha.com/assets/slider1-CGu9mUuv.webp",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 3,
+            "image": [
+                {
+                    "src": "https://babermahalvilas.com/images/slideshow/zUzke-babermahal.webp",
+                    "alt": "Baber Mahal Vilas"
+                }
+            ],
+            "title": "Baber Mahal Vilas",
+            "task": [
+                "Design",
+                "Development",
+                "Photography"
+            ]
+        },
+        {
+            "id": 4,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 5,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/gDw69-7.jpg",
+                    "alt": "The Culture Resort"
+                }
+            ],
+            "title": "The Culture Resort",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/Uc7kU-anuttara-lords-plaza5.jpg",
+                    "alt": "Anuttara Lords Plaza"
+                }
+            ],
+            "title": "Anuttara Lords Plaza",
+            "task": [
+                "Development",
+                "Photography"
+            ]
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 1,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/bNfJQ-5.jpg",
+                    "alt": "Hotel Himalaya"
+                }
+            ],
+            "title": "Hotel Himalaya",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        },
+        {
+            "id": 2,
+            "image": [
+                {
+                    "src": "https://photo.longtail.info/images/gallery/galleryimages/WRG0o-2.jpg",
+                    "alt": "Hotel Ichchha"
+                }
+            ],
+            "title": "Hotel Ichchha",
+            "task": [
+                "Design",
+                "Development",
+                "SEO",
+                "Marketing",
+                "Branding",
+                "Photography"
+            ]
+        }
+    ]
+}

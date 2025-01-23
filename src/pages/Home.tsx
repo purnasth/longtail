@@ -2,10 +2,14 @@ import React from 'react';
 // import Intro from '../components/Intro';
 import Services from '../components/Services';
 import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
+import Portfolio from '../components/Portfolio';
 
 const Home: React.FC = () => {
   return (
     <>
+      <Portfolio />
+      <Testimonials />
       <Services />
       {/* <Intro /> */}
       <Gallery

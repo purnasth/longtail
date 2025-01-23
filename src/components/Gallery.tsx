@@ -9,7 +9,7 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-video.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import 'lightgallery/css/lg-fullscreen.css';
-import useFetchAPI from '../hooks/useFetchApi';
+import useFetchAPI from '../hooks/useFetchAPI';
 
 interface ImageData {
   id: number;
