@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.64.2",
     "axios": "^1.7.9",
+    "lenis": "^1.1.20",
     "lightgallery": "^2.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

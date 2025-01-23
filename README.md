@@ -28,13 +28,14 @@ Longtail.info is a modern, fast, and responsive website built for Longtail e-Med
 - **TanStack/react-query**: Data fetching and caching library
 - **Lightgallery**: Full-featured JavaScript lightbox gallery
 - **Swiper**: Modern touch slider
+- **Lenis Smooth Scroll**: Smooth scrolling library
 
 ---
 
 ## 🎨 Pnpm Setup codes
 
 ```bash
-pnpm i axios react-query react-router-dom lightgallery react-icons swiper
+pnpm i axios @tanstack/react-query react-router-dom lightgallery react-icons swiper lenis
 ---
 
 ## 📁 Project Structure
