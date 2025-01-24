@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from './ui/Title';
 // import purna from '../assets/img/hero.avif';
 // import design from '../assets/img/nav/services.svg';
 // import develop from '../assets/img/svg/develop.svg';
@@ -99,21 +100,14 @@ const servicesContent = [
 const Services: React.FC = () => {
   return (
     <>
-      <main className="size-full pb-28">
+      <main className="size-full bg-light">
         <div className="container">
-          {/* <div className="flex items-end gap-4 md:gap-6">
-            <h3 className="text-pretty text-3xl capitalize leading-snug drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] md:text-6xl md:leading-snug">
-              Expert Solutions <br /> Tailored for Your Needs
-            </h3>
-            <img
-              src={purna}
-              alt="Purna"
-              className="size-10 -translate-y-1 rounded-full bg-white object-contain md:size-16 md:-translate-y-4"
-            />
-          </div>
-
-          <div className="my-10 h-px w-full bg-gradient-to-r from-[#989AA6]/[0.5] to-transparent md:my-16 md:h-[0.5px]" /> */}
-
+          <Title
+            title="Our Services"
+            subtitle="What We Do"
+            description="We offer a wide range of services that help you grow your business. Our team of experts ensures that your project is delivered on time and within budget."
+            align="left"
+          />
           <section className="pt-0">
             {servicesContent.map((service, index) => (
               <div

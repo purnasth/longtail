@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "src": "https://satprayash.org.np/assets/logo.svg",
+      "title": "Satprayas Nepal"
+    },
+    {
+      "id": 2,
+      "src": "https://mayurstay.com/himalayanflavours/backend/images/preference/CPM4u-logo.svg",
+      "title": "Himalayan Flavours"
+    },
+    {
+      "id": 3,
+      "src": "https://templebell.pages.dev/assets/logo-Yrn2D_BU.svg",
+      "title": "Temple Bell"
+    },
+    {
+        "id": 4,
+        "src": "https://www.hotellomustang.com/images/preference/8DCPD-logo.png",
+        "title": "Hotel Lo Mustang"
+    },
+    {
+        "id": 5,
+        "src": "https://www.annapurnaview.com/images/preference/5Lt4Q-logo.png",
+        "title": "Annapurna View"
+    },
+    {
+      "id": 1,
+      "src": "https://hotelhimalaya.purnashrestha.com.np/assets/logo-s4LMycLK.svg",
+      "title": "Hotel Himalaya"
+    },
+    {
+      "id": 2,
+      "src": "https://hotel-ichchha.pages.dev/assets/logo-DwnyUaN0.svg",
+      "title": "Hotel Ichchha"
+    },
+    {
+      "id": 3,
+      "src": "https://mithilayatriniwas.com/assets/logo-BoMl5AAK.svg",
+      "title": "Mithila Yatri Niwas"
+    },
+    {
+      "id": 5,
+      "src": "https://www.decrowninn.com/images/preference/AxIuw-logo.png",
+      "title": "De Crown Inn"
+    },
+    {
+      "id": 6,
+      "src": "https://demo.airfarenepal.com/assets/images/logo.png",
+      "title": "Airfare Nepal"
+    },
+    {
+      "id": 7,
+      "src": "https://dayatra.purnashrestha.com.np/assets/img/logo.svg",
+      "title": "Hotel Da Yatra"
+    },
+    {
+      "id": 9,
+      "src": "https://naikapvillageresort.com/images/preference/91wAZ-naikap_logo.svg",
+      "title": "Naikap Village Resort"
+    }
+  ]

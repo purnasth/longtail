@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import useFetchAPI from '../hooks/useFetchAPI';
-import { TbMenu2 } from 'react-icons/tb';
+import { TbMenu2, TbX } from 'react-icons/tb';
 import icon from '../assets/icon.svg';
 import Logo from '../components/ui/Logo';
 
@@ -74,8 +74,17 @@ const Navbar: React.FC = () => {
             aria-label="Menu"
             title="Menu"
           >
-            <TbMenu2 className="text-xl" />
-            <span className="hidden font-semibold sm:block">Menu</span>
+            {isOpen ? (
+              <>
+                <TbX className="text-xl" />
+                <span className="hidden font-semibold -translate-x-[2px] sm:block">Close</span>
+              </>
+            ) : (
+              <>
+                <TbMenu2 className="text-xl" />
+                <span className="hidden font-semibold sm:block">Menu</span>
+              </>
+            )}
           </button>
         </div>
       </header>

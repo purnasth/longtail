@@ -7,6 +7,8 @@ import Portfolio from '../components/Portfolio';
 import MasterSlider from '../components/ui/MasterSlider';
 import useFetchAPI from '../hooks/useFetchAPI';
 import Facts from '../components/Facts';
+import Clients from '../components/Clients';
+import LogoBar from '../components/ui/LogoBar';
 
 const Home: React.FC = () => {
   // const apiUrl = import.meta.env.VITE_API_URL;
@@ -32,6 +34,8 @@ const Home: React.FC = () => {
         sizeClassName="min-h-[32rem] w-full object-cover object-center sm:h-[50vh] md:h-[65vh] xl:h-screen"
       />
       <Facts />
+      <Clients />
+      <LogoBar />
       <Portfolio />
       <Services />
       <Testimonials />
