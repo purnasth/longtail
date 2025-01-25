@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import RouterToTop from './utils/RouterToTop';
 import useLenisScroll from './utils/useLenisScroll';
 import Navbar from './layouts/Navbar';
+// import Footer from './layouts/Footer';
 
 const App: React.FC = () => {
   useLenisScroll();
@@ -21,6 +22,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        {/* <Footer /> */}
       </Router>
     </>
   );

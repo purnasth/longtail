@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         // title: ['"DM Sans"', 'Cambria', 'serif'],
-        title: ['"DM Sans"', 'sans-serif'],
+        title: ['"Quaglia"', 'DM Sans', 'sans-serif'],
         body: ['"DM Sans"', 'sans-serif'],
       },
       fontSize: {

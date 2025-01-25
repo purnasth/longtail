@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Kaftan Serif';
-  src: url('./assets/fonts/KaftanSerif.woff2');
+  font-family: 'Quaglia';
+  src: url('./assets/fonts/Quaglia.woff');
 }
 
 @tailwind base;
@@ -53,14 +53,13 @@
     @apply font-body;
   }
 
-  .navlink,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply font-title font-semibold;
+    @apply font-title font-light;
   }
 
   label,

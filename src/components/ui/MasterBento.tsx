@@ -61,7 +61,7 @@ const MasterBento: React.FC<ContentProps> = ({ contents }) => {
                 ))}
               </div>
               <div className="space-y-6 p-8">
-                <h3 className="text-2xl font-semibold">{content.title}</h3>
+                <h3 className="text-2xl">{content.title}</h3>
                 {content.task && (
                   <ul className="flex flex-wrap items-center justify-start gap-2">
                     {content.task.map((task) => (

@@ -11,7 +11,6 @@ import Clients from '../components/Clients';
 import LogoBar from '../components/ui/LogoBar';
 import PromotingPartners from '../components/PromotingPartners';
 import Brands from '../components/Brands';
-import Footer from '../layouts/Footer';
 
 const Home: React.FC = () => {
   // const apiUrl = import.meta.env.VITE_API_URL;
@@ -50,7 +49,6 @@ const Home: React.FC = () => {
         galleryClassName="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4 lg:gap-6"
       /> */}
       <Brands />
-      <Footer />
     </>
   );
 };

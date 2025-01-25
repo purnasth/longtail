@@ -59,7 +59,7 @@ const MasterSlider: React.FC<MasterSliderProps> = ({
               {slide.title && (
                 <>
                   <span>Longtail e-Media</span>
-                  <h2 className="text-shadow-dark-glow mx-8 max-w-4xl text-center text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-5xl md:leading-snug">
+                  <h2 className="sc12 text-shadow-dark-glow mx-8 max-w-4xl 2xl:max-w-5xl text-center text-xl leading-relaxed text-dark md:mx-0 md:text-5xl 2xl:text-6xl md:leading-snug 2xl:leading-snug">
                     {slide.title}
                   </h2>
                   <p className="my-4 max-w-md px-4 text-center text-sm md:my-6 md:text-base">
