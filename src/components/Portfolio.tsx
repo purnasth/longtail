@@ -1,4 +1,5 @@
 import useFetchAPI from '../hooks/useFetchAPI';
+import LogoButton from './ui/LogoButton';
 import MasterBento from './ui/MasterBento';
 
 const Portfolio = () => {
@@ -16,7 +17,13 @@ const Portfolio = () => {
 
   return (
     <>
-      <MasterBento contents={portfolio} />
+      <main className="px-6">
+        <MasterBento contents={portfolio} />
+        <div className="flex flex-col items-center justify-center">
+          <div className="mx-auto h-28 w-px bg-dark/30" />
+          <LogoButton value="Explore portfolio" router="/" />
+        </div>
+      </main>
     </>
   );
 };

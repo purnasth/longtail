@@ -1,18 +1,18 @@
 import useFetchAPI from '../hooks/useFetchAPI';
 import Title from './ui/Title';
 
-interface ClientsType {
+interface PromotingPartnersType {
   id: string;
   src: string;
   title: string;
 }
 
-const Clients = () => {
+const PromotingPartners = () => {
   const {
-    data: clients = [],
+    data: promotingPartners = [],
     isLoading,
     isError,
-  } = useFetchAPI('clients', '/api/clients.json');
+  } = useFetchAPI('promotingPartners', '/api/promotingPartners.json');
 
   if (isLoading) return null;
   if (isError) {
@@ -20,29 +20,28 @@ const Clients = () => {
     return null;
   }
   return (
-    <main className="py-0">
+    <main>
       <div className="container">
+        <Title
+          title="Explore the newly opened properties"
+          subtitle="Partner in Promotion"
+          align="center"
+        />
         <ul className="relative mt-12 grid grid-cols-3 gap-0 md:grid-cols-6">
-          {clients.map((client: ClientsType) => (
-            <li key={client.id}>
+          {promotingPartners.map((partner: PromotingPartnersType) => (
+            <li key={partner.id}>
               <img
-                src={client.src}
-                alt={client.title}
+                src={partner.src}
+                alt={partner.title}
                 className="transition-300 aspect-square border border-dashed border-dark/5 object-contain p-12 hover:border-dark/20 hover:p-5 hover:opacity-100 hover:shadow-sm hover:filter-none md:w-full"
-                title={client.title}
+                title={partner.title}
               />
             </li>
           ))}
         </ul>
-        <div className="mx-auto h-32 w-px bg-dark/5"></div>
-        <Title
-          title="We have worked with some amazing clients"
-          subtitle="Our Clients"
-          align="center"
-        />
       </div>
     </main>
   );
 };
 
-export default Clients;
+export default PromotingPartners;

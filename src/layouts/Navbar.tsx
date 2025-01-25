@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
         <div className="pointer-events-auto flex items-center gap-3">
           <button
             onClick={toggleNav}
-            className="transition-300 inline-flex w-fit origin-left scale-90 items-center justify-center gap-2 rounded-full border border-white bg-dark/30 px-4 py-2 text-white backdrop-blur-sm hover:border-green-500/80 hover:bg-green-500 hover:text-light md:scale-100"
+            className="transition-300 inline-flex w-fit origin-left scale-90 items-center justify-center gap-2 rounded-full border border-white bg-dark/30 px-4 py-2 text-white backdrop-blur-sm hover:border-logo-green hover:bg-logo-green hover:text-white md:scale-100"
             aria-label="Menu"
             title="Menu"
           >
@@ -123,7 +123,7 @@ const Navbar: React.FC = () => {
                     <NavLink
                       to={link.link}
                       className={({ isActive }) =>
-                        `navlink ${isActive ? 'text-green-500' : 'text-dark'}`
+                        `navlink ${isActive ? 'text-logo-green' : 'text-dark'}`
                       }
                       aria-label={link.title}
                     >

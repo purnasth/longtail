@@ -4,12 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: '#111111',
+        dark: '#231f20',
         light: '#f5f5f5',
+        'logo-yellow': '#ffcb08',
+        'logo-red': '#ed1c24',
+        'logo-green': '#a6ce39',
+        // 'logo-blue': '#00a2ff',
+        // 'logo-purple': '#9b26af',
+        // 'logo-black': '#231f20',
       },
       fontFamily: {
-        title: ['"DM Sans"', 'Georgia', 'Cambria', 'serif'],
-        body: ['"DM Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        // title: ['"DM Sans"', 'Cambria', 'serif'],
+        title: ['"DM Sans"', 'sans-serif'],
+        body: ['"DM Sans"', 'sans-serif'],
       },
       fontSize: {
         inherit: 'inherit',

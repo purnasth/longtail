@@ -9,6 +9,7 @@ import useFetchAPI from '../hooks/useFetchAPI';
 import Facts from '../components/Facts';
 import Clients from '../components/Clients';
 import LogoBar from '../components/ui/LogoBar';
+import PromotingPartners from '../components/PromotingPartners';
 
 const Home: React.FC = () => {
   // const apiUrl = import.meta.env.VITE_API_URL;
@@ -40,6 +41,8 @@ const Home: React.FC = () => {
       <Services />
       <Testimonials />
       {/* <Intro /> */}
+      <LogoBar />
+      <PromotingPartners />
       <Gallery
         limit={6}
         galleryClassName="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4 lg:gap-6"
