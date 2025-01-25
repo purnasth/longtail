@@ -19,7 +19,7 @@ const Facts = () => {
   }
 
   return (
-    <main className='py-0'>
+    <main className='py-0 -mt-32'>
       <div className="grid grid-cols-4 gap-5 text-center">
         {facts.map((fact: Fact, index: number) => ( // Add explicit types for fact and index
           <div key={index}>

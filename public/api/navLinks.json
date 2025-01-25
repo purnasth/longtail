@@ -9,7 +9,7 @@
         "id": "about",
         "title": "About",
         "link": "\/about",
-        "priority": 1
+        "priority": 0
     },
     {
         "id": "services",
@@ -36,12 +36,6 @@
         "priority": 0
     },
     {
-        "id": "contact",
-        "title": "Contact",
-        "link": "\/contact",
-        "priority": 0
-    },
-    {
         "id": "clients",
         "title": "Clients",
         "link": "\/clients",
@@ -51,12 +45,6 @@
         "id": "web-development",
         "title": "Web Development",
         "link": "\/web-development",
-        "priority": 0
-    },
-    {
-        "id": "branding",
-        "title": "Branding",
-        "link": "\/branding",
         "priority": 0
     },
     {

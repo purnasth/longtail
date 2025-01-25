@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import RouterToTop from './utils/RouterToTop';
 import useLenisScroll from './utils/useLenisScroll';
 import Navbar from './layouts/Navbar';
+import WhatsApp from './layouts/WhatsApp';
 // import Footer from './layouts/Footer';
 
 const App: React.FC = () => {
@@ -23,6 +24,7 @@ const App: React.FC = () => {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         {/* <Footer /> */}
+        <WhatsApp />
       </Router>
     </>
   );

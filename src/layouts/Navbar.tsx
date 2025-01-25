@@ -141,19 +141,19 @@ const Navbar: React.FC = () => {
                 ) : null,
               )}
             </ul>
-            <hr className="my-12 border-dark/20" />
+            {/* <hr className="my-12 border-dark/20" /> */}
             <div>
-              <span className="inline-block text-xs uppercase tracking-wider text-dark/50">
+              <span className="my-6 inline-block text-xs uppercase tracking-wider text-dark/50">
                 Quick Links
               </span>
-              <ul className="mt-6 flex flex-wrap gap-2 md:gap-4">
+              <ul className="flex flex-wrap gap-2 md:gap-4 md:gap-x-2">
                 {navLinks.map((link: NavLinkItem) =>
                   link.priority === 0 ? (
                     <li className="group" key={link.id}>
                       <NavLink
                         to={link.link}
                         className={({ isActive }) =>
-                          `transition-300 rounded-full border border-dark/50 px-4 py-1 font-body text-sm font-normal text-dark backdrop-blur-sm group-hover:bg-dark/30 ${
+                          `transition-300 rounded-full border border-logo-dark/50 px-4 py-1 font-body text-sm font-normal text-dark backdrop-blur-sm group-hover:bg-logo-green/30 ${
                             isActive ? 'bg-dark/30' : ''
                           }`
                         }

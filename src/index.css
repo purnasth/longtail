@@ -107,7 +107,7 @@
   }
 
   .navlink {
-    @apply transition-300 inline-flex w-full items-center justify-between pb-2 text-2xl font-bold capitalize text-dark group-hover:font-bold group-hover:tracking-wider;
+    @apply transition-300 inline-flex w-full items-center justify-between pb-2 text-2xl font-semibold capitalize text-dark group-hover:font-bold group-hover:tracking-wider;
   }
 
   .overlay {
