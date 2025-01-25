@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Photo Longtail",
+        "subtitle": "Photography, Videography, Drone, 360-degree photography, Virtual Tour",
+        "description": "Welcome to Photo Longtail, where we go beyond capturing images; we create visual stories that resonate with your audience and elevate your brand to new heights. With a passion for photography and a commitment to excellence, we bring a decade of expertise to every project, ensuring that every pixel reflects the essence of your property and the experiences it offers.where every click captures unforgettable narratives. ",
+        "website_link": "https://photo.longtail.info/portfolio",
+        "image": "https://photo.longtail.info/images/preference/WoQma-photo_longtail.png"
+    },
+    {
+        "id": 2,
+        "title": "Logo Longtail",
+        "subtitle": "Logo Design, Branding, Identity Design, Product Design",
+        "description": "Welcome to Logo Longtail, where we go beyond creating logos; we craft brand identities that resonate with your audience and elevate your brand to new heights. With a passion for design and a commitment to excellence, we bring a decade of expertise to every project, ensuring that every pixel reflects the essence of your brand and the values it stands for.",
+        "website_link": "https://longtail.info/logo/",
+        "image": "data:image/svg+xml,%3csvg%20id='Layer_1'%20data-name='Layer%201'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20144.24%20147.72'%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%23bf1f49;}%3c/style%3e%3c/defs%3e%3cpath%20class='cls-1'%20d='M62,32.11V45.53H56.85V89.66H79.4V76.75H95.75v26.43H31.26V89.66h5.35V45.53H31.26V32.11Z'%20transform='translate(-29.48%20-31.99)'/%3e%3cpath%20class='cls-1'%20d='M73.16,172c-2,3.55-7.73,6.91-14.81,6.91-16.09,0-28.87-13.06-28.87-33.81,0-20.94,13.88-35.35,28.23-35.35,13.33,0,16.46,6.53,17.93,8.07l1.93-6.91h13.7v28.33H74.81c-.28-7.78-5.06-12.2-10.48-12.2-7.45,0-12.6,8.46-12.6,18.06,0,9.8,4.6,17.67,12.6,17.67,5.24,0,7.45-2.2,8.83-4.7v-4H67.55V143.71H98.07V154H94.4v24H76Z'%20transform='translate(-29.48%20-31.99)'/%3e%3cpath%20class='cls-1'%20d='M108.9,66.81C108.9,46.2,122,32,140.94,32c22.37,0,32.78,14,32.78,35.48s-11.51,34.72-32.14,34.72C122.5,102.19,108.9,90.65,108.9,66.81Zm42,.66c0-11.54-3-20.79-10-20.79-5.57-.09-9.4,8.3-9.4,20.13,0,12.49,4.29,20.41,10.13,20.41S150.89,79.3,150.89,67.47Z'%20transform='translate(-29.48%20-31.99)'/%3e%3cpath%20class='cls-1'%20d='M108.9,144.33c0-20.61,13.14-34.82,32-34.82,22.37,0,32.78,14,32.78,35.49s-11.51,34.71-32.14,34.71C122.5,179.71,108.9,168.17,108.9,144.33Zm42,.67c0-11.55-3-20.8-10-20.8-5.57-.09-9.4,8.3-9.4,20.13,0,12.49,4.29,20.41,10.13,20.41S150.89,156.82,150.89,145Z'%20transform='translate(-29.48%20-31.99)'/%3e%3c/svg%3e"
+    }
+]

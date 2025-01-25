@@ -40,5 +40,41 @@
         "title": "Contact",
         "link": "\/contact",
         "priority": 0
+    },
+    {
+        "id": "clients",
+        "title": "Clients",
+        "link": "\/clients",
+        "priority": 0
+    },
+    {
+        "id": "web-development",
+        "title": "Web Development",
+        "link": "\/web-development",
+        "priority": 0
+    },
+    {
+        "id": "branding",
+        "title": "Branding",
+        "link": "\/branding",
+        "priority": 0
+    },
+    {
+        "id": "digital-marketing",
+        "title": "Digital Marketing",
+        "link": "\/digital-marketing",
+        "priority": 0
+    },
+    {
+        "id": "photography",
+        "title": "Photography",
+        "link": "\/photography",
+        "priority": 0
+    },
+    {
+        "id": "video-production",
+        "title": "Video Production",
+        "link": "\/video-production",
+        "priority": 0
     }
 ]

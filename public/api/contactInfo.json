@@ -1,0 +1,110 @@
+[
+    {
+        "id": "location",
+        "type": "location",
+        "icon": null,
+        "image": null,
+        "details": [
+            {
+                "link": "https://maps.app.goo.gl/zvhPDpLPSMRB8Zvx7",
+                "title": "Pulchowk, Lalitpur, Nepal"
+            }
+        ]
+    },
+    {
+        "id": "phoneNumbers",
+        "type": "phone",
+        "icon": null,
+        "image": null,
+        "details": [
+            {
+                "link": "tel:+9801092983",
+                "title": "+9779801092983"
+            },
+            {
+                "link": "tel:+9779851068762",
+                "title": "+9779851068762"
+            },
+            {
+                "link": "tel:+9779851001487",
+                "title": "+9779851001487"
+            }
+        ]
+    },
+    {
+        "id": "emails",
+        "type": "email",
+        "icon": null,
+        "image": null,
+        "details": [
+            {
+                "link": "mailto:info@longtail.info",
+                "title": "info@longtail.info"
+            },
+            {
+                "link": "mailto:info@longtail.info",
+                "title": "info@longtail.info"
+            }
+        ]
+    },
+    {
+        "id": "facebook",
+        "type": "social",
+        "icon": "FaFacebookF",
+        "image": null,
+        "details": [
+            {
+                "link": "https://www.facebook.com/longtail.e.media.p.ltd",
+                "title": "Facebook"
+            }
+        ]
+    },
+    {
+        "id": "instagram",
+        "type": "social",
+        "icon": "AiFillInstagram",
+        "image": null,
+        "details": [
+            {
+                "link": "https://www.instagram.com/longtailemedia/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": "twitter",
+        "type": "social",
+        "icon": "FaXTwitter",
+        "image": null,
+        "details": [
+            {
+                "link": "#",
+                "title": "Twitter"
+            }
+        ]
+    },
+    {
+        "id": "linkedin",
+        "type": "social",
+        "icon": "FaLinkedinIn",
+        "image": null,
+        "details": [
+            {
+                "link": "https://www.linkedin.com/company/longtail-e-media-pvt-ltd/",
+                "title": "LinkedIn"
+            }
+        ]
+    },
+    {
+        "id": "youtube",
+        "type": "social",
+        "icon": "FaYoutube",
+        "image": null,
+        "details": [
+            {
+                "link": "https://www.youtube.com/@Longtailemedia",
+                "title": "YouTube"
+            }
+        ]
+    }
+]

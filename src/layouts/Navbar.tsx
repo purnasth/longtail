@@ -4,6 +4,7 @@ import useFetchAPI from '../hooks/useFetchAPI';
 import { TbMenu2, TbX } from 'react-icons/tb';
 import icon from '../assets/icon.svg';
 import Logo from '../components/ui/Logo';
+import ContactAndSocial from '../components/ContactAndSocial';
 
 // Define the type for fetched navigation links
 interface NavLinkItem {
@@ -70,14 +71,16 @@ const Navbar: React.FC = () => {
         <div className="pointer-events-auto flex items-center gap-3">
           <button
             onClick={toggleNav}
-            className="transition-300 inline-flex w-fit origin-left scale-90 items-center justify-center gap-2 rounded-full border border-white bg-dark/30 px-4 py-2 text-white backdrop-blur-sm hover:border-logo-green hover:bg-logo-green hover:text-white md:scale-100"
+            className="transition-300 hover:border-logo-green hover:bg-logo-green inline-flex w-fit origin-left scale-90 items-center justify-center gap-2 rounded-full border border-white bg-dark/30 px-4 py-2 text-white backdrop-blur-sm hover:text-white md:scale-100"
             aria-label="Menu"
             title="Menu"
           >
             {isOpen ? (
               <>
                 <TbX className="text-xl" />
-                <span className="hidden font-semibold -translate-x-[2px] sm:block">Close</span>
+                <span className="hidden -translate-x-[2px] font-semibold sm:block">
+                  Close
+                </span>
               </>
             ) : (
               <>
@@ -139,25 +142,37 @@ const Navbar: React.FC = () => {
               )}
             </ul>
             <hr className="my-12 border-dark/20" />
-            <ul className="mt-6 flex flex-wrap gap-2 md:gap-4">
-              {navLinks.map((link: NavLinkItem) =>
-                link.priority === 0 ? (
-                  <li className="group" key={link.id}>
-                    <NavLink
-                      to={link.link}
-                      className={({ isActive }) =>
-                        `transition-300 rounded-full border border-dark/50 px-4 py-1 font-body text-sm font-normal text-dark backdrop-blur-sm group-hover:bg-dark/30 ${
-                          isActive ? 'bg-dark/30' : ''
-                        }`
-                      }
-                      aria-label={link.title}
-                    >
-                      {link.title}
-                    </NavLink>
-                  </li>
-                ) : null,
-              )}
-            </ul>
+            <div>
+              <span className="inline-block text-xs uppercase tracking-wider text-dark/50">
+                Quick Links
+              </span>
+              <ul className="mt-6 flex flex-wrap gap-2 md:gap-4">
+                {navLinks.map((link: NavLinkItem) =>
+                  link.priority === 0 ? (
+                    <li className="group" key={link.id}>
+                      <NavLink
+                        to={link.link}
+                        className={({ isActive }) =>
+                          `transition-300 rounded-full border border-dark/50 px-4 py-1 font-body text-sm font-normal text-dark backdrop-blur-sm group-hover:bg-dark/30 ${
+                            isActive ? 'bg-dark/30' : ''
+                          }`
+                        }
+                        aria-label={link.title}
+                      >
+                        {link.title}
+                      </NavLink>
+                    </li>
+                  ) : null,
+                )}
+              </ul>
+            </div>
+            <hr className="my-12 border-dark/20" />
+            <div>
+              <span className="mb-6 inline-block text-xs uppercase tracking-wider text-dark/50">
+                Contact & Social
+              </span>
+              <ContactAndSocial />
+            </div>
           </div>
         </div>
       </nav>
